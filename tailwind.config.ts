@@ -60,7 +60,10 @@ const config: Config = {
 			},
 			fontFamily: {
 				manrope: ['var(--font-manrope)', ...fontFamily.sans],
-			},
+			}
+		},
+		container: {
+			center: true
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
